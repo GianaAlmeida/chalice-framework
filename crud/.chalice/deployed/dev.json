@@ -1,0 +1,23 @@
+{
+  "resources": [
+    {
+      "name": "default-role",
+      "resource_type": "iam_role",
+      "role_arn": "AWS_arn",
+      "role_name": "Databases-dev"
+    },
+    {
+      "name": "api_handler",
+      "resource_type": "lambda_function",
+      "lambda_arn": "AWS_arn"
+    },
+    {
+      "name": "rest_api",
+      "resource_type": "rest_api",
+      "rest_api_id": "aws_id",
+      "rest_api_url": "AWS_URL"
+    }
+  ],
+  "schema_version": "2.0",
+  "backend": "api"
+}
